@@ -1,4 +1,3 @@
-# bong-den
 <!DOCTYPE html>
 <html>
 <body>
@@ -9,6 +8,11 @@
 
 <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
+<button onclick="document.getElementById("myImage").src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById("myImage").src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 </html>
